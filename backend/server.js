@@ -11,6 +11,7 @@ import { app, server } from "./socket/socket.js";
 import mongodbConnect from "./db/mongodbConnect.js";
 
 dotenv.config();
+const __dirname = path.resolve();
 
 // const app = express();
 const PORT = process.env.PORT || 5001;
